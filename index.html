@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dear You</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Welcome My Friend</h1>
+        <hr>
+        <h2>I Build This Website For You</h2>
+        <p><i>"You Deserve That Future. It is Waiting For You. Choose It."</i>
+        - Bianca Sparacino (A gentle Reminder)
+        </p>
+        <br>
+        <img src="My Name is Daniel.gif" height="300" alt="I love this gif">
+        <hr>
+        <h2>How Are You?</h2>
+        <p>Guys gimana kabar kalian? Apa kalian baik-baik aja atau kalian lagi sedih, galau, atau bahagia banget?
+            <i>Hey! Don't be sad my dear friends, let your life be happy as you can be.</i> Hidup ini cuman sekali. Lakuin apa yang pengen kalian lakuin.
+            <i>Don't forget to smile</i>😉
+        <br>
+        <p>Ada quote dari buku yang aku baca (The Mountain Is You) <i>"Your life is defined not only by what you think about it, but also what you think of yourself.
+            Your self-concept is an idea of that you have spent your whole life building."</i> Dari qoute itu aku berpikir bahwa apa yang kita pikirkan tentang diri sendiri semasa hidup itu ternyata berpengaruh terhadap bagaimana sifat dan sikap kita terhadap diri sendiri.
+            Ketika yang berpikir bahwa diri sendiri lemah untuk segala hal, maka begitu juga kita akan bersikap. Tetapi sebaliknya jika berpikir bahwa diri ini kuat, maka kita juga akan bersikap demikian. Kita tidak takut untuk mencoba hal baru dan juga mencoba untuk tumbuh dan berpikiran positif. Sehingga kita bisa mencapai cita-cita walaupun dilihat sebelumnya itu tidak mungkin.
+        </p>
+        <p>Itu menurutku ya, mungkin kalian berbeda. But it's ok, perbedaan itu menyenangkan🐾</p>
+        <p>Oh iya akhir-akhir ini lagi suka dengerin lagu ini, play aja👍</p>
+        <audio controls play loop>
+            <source  src="BSS (SEVENTEEN) - 7PM [128 kbps].mp3">
+            <source  src="BSS (SEVENTEEN) - 7PM [128 kbps].mp3">
+        </audio>
+        <p>Udah itu aja yang mau aku sampaikan di website pertama untuk kalian ini. Bye-bye pookies😙</p>
+        <hr>
+     <main>
+         <section>
+         <h2>Journal</h2>
+            <p>Coba kalian share perasaan kalian akhir-akhir di sini ya🙆‍♀️ Tulis apapun yang kalian mau, mau itu isi pikiran kalian, keraguan, gundah gulana, musik favorit kalian, film yang lagi ditonton, atau buku yang lagi kalain baca.
+                Bisa juga tentang aktivitas yang bikin kalian happy dan memberi energi posistif untuk kalian💗 Oh iya untuk kritik, saran, dan pesan untuk aku di input terpisah ya😊
+            </p>
+             <form action="action_page.php"method="POST">
+                <fieldset>
+                    <legend>Send Me Your Feeling</legend>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="your name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="your email" required>
+                    </p>
+                    <p>
+                        <label for="bdate">Birth Date</label>
+                        <input type="date" id="bdate" name="bdate">
+                    </p>
+                    <p>
+                        <label for="message">Your Feeling :</label>
+                        <br>
+                        <textarea name="message" id="" cols="65" rows="20" placeholder="Type your message here"></textarea>
+                    </p>
+                
+                    <p>
+                        <label for="K&S">Kritik & Saran :</label>
+                        <br>
+                        <textarea name="message" id="" cols="50" rows="10" placeholder="Type your message here"></textarea>
+                </fieldset>
+                <form>
+                <button onclick="goToNextPage()">Submit</button>
+
+                    <script>
+                    function goToNextPage(){
+                    window.location.href = "nextpage.html";
+                    }
+                    </script>
+                <form>
+                    <button type="reset">Reset</button>
+                </form>
+        </section>
+        <hr>
+        <section>
+            <h2>My Location</h2>
+            <address>
+                In Your Heart<br>
+                Indonesia
+                <br><br>
+            </address>
+        </section>
+     <hr>
+     <footer>
+         <p>Copyright &copy; To Me, Umi K🦋</p>
+     </footer>
+            </form>
+    </body>
+</html>
